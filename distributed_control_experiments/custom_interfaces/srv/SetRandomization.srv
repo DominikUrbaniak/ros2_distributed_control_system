@@ -1,0 +1,6 @@
+float64 rand_factor
+---
+float64[] cube_current
+float64[] cube_goal
+float64[] eef_current
+bool success

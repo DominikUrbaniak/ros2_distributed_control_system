@@ -1,0 +1,11 @@
+sensor_msgs/Image image
+int64 stamp_ns
+int32 id
+---
+geometry_msgs/Pose[] poses
+int32[] tag_ids
+int64 stamp_ns_pose_response
+int32 id_response
+int64 stamp_ns_image_request
+int64 stamp_ns_image_received
+string qos_profile
