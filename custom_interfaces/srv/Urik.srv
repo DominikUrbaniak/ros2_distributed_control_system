@@ -1,7 +1,0 @@
-float64[] theta_ref
-float64[] theta_min
-float64[] theta_max
-geometry_msgs/Pose pose
----
-Ik[] ik_solution
-bool status

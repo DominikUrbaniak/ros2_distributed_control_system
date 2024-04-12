@@ -1,9 +1,0 @@
-int32 objid
-int64 computation_ms
-string network
-int32 n_freshness_samples
-int32 sensing_rate
-string qos_profile
----
-int32 delay_mode
-bool success
