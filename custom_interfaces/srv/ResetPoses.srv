@@ -1,0 +1,7 @@
+geometry_msgs/Pose pose_cube
+geometry_msgs/Pose pose_eef
+float32 pose_gripper
+int32 initial_reset
+int32 cube_id
+---
+bool success

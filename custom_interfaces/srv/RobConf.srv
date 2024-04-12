@@ -1,0 +1,9 @@
+float32[] conf
+float64[] time_stamps
+bool event_trigger
+bool start
+int64 vc_scaler
+---
+bool success
+int32 obj
+string msg
