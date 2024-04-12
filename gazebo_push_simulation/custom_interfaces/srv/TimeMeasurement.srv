@@ -1,0 +1,5 @@
+int32 counter_in
+float64 timestamp_in
+---
+float64 latency
+int32 counter_out
