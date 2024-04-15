@@ -15,7 +15,7 @@ The nodes can be run using Docker containers.
 
 - *ros2 run qos_pkg poses_a1_pub Sensor rc_ethernet 60 20000 1*
 
-  (QoS profile: best effort ( *Sensor* ) or reliable ( *RV10* ), folder name to save measurements ( *rc_ethernet* ), approximate packet size in bytes ( *20000* ), mode: ( *0*: same packet size uplink and downlink, *1*: specified packet size only uplink, *2*: specified packet size only downlink)
+QoS profile: best effort ( *Sensor* ) or reliable ( *RV10* ), folder name to save measurements ( *rc_ethernet* ), approximate packet size in bytes ( *20000* ), mode: ( *0*: same packet size uplink and downlink, *1*: specified packet size only uplink, *2*: specified packet size only downlink
 - *ros2 run qos_pkg poses_a2_sub_pub*
 - *ros2 run qos_pkg poses_a3_sub 60* Duration of the measurement ( *60* )
 
