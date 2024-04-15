@@ -22,7 +22,7 @@ The [latency distributions](https://github.com/DominikUrbaniak/Latency_Push_Acti
 - *ros2 launch main_pkg main.launch.py*
 - *ros2 run push_control_py sim_translation private5g 60 10*
 
-Input parameters are the name of the communication technology (*private5g*), the sensing rate (*60*) and the number of episodes as inputs (*10*). Further parameters can be set in main_pkg/config/sim_translation.ini, such as the low-level control timeout and pushing speed.
+Input parameters are the name of the communication technology ( *private5g* ), the sensing rate ( *60* ) and the number of episodes as inputs ( *10* ). Further parameters can be set in main_pkg/config/sim_translation.ini, such as the low-level control timeout and pushing speed.
 
 ##
 
