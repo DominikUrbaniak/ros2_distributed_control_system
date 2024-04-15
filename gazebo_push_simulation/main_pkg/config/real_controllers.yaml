@@ -1,0 +1,78 @@
+controller_manager:
+  ros__parameters:
+
+    update_rate: 500 #same as gazebo default  # (500 Hz for UR5e)
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    #joint_trajectory_controller:
+      #type: joint_trajectory_controller/JointTrajectoryController
+
+    forward_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+
+    #joint_state_controller:
+      #type: joint_state_controller/JointStateController
+      #publish_rate: 100
+
+    #gripper_controller:
+      #type: position_controllers/GripperActionController
+      #joint: gripper_right_driver_joint
+        #stall_timeout: 2.0
+        #stall_velocity_threshold: 0.1
+        #goal_tolerance: 0.01
+
+#gripper_controller:
+#  ros__parameters:
+#    joints:
+
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+      - gripper_right_driver_joint
+      - gripper_left_driver_joint
+      - gripper_right_spring_link_joint
+      - gripper_left_spring_link_joint
+      - gripper_right_follower_joint
+      - gripper_left_follower_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+
+
+forward_velocity_controller:
+  ros__parameters:
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+    interface_name: velocity
+    command_interfaces:
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+    gains: # Required because we're controlling a velocity interface
+      shoulder_pan_joint: {p: 1,  d: 0.00, i: 0, i_clamp: 0.1}
+      shoulder_lift_joint: {p: 1,  d: 0.00, i: 0, i_clamp: 0.1}
+      elbow_joint: {p: 1,  d: 0.00, i: 0, i_clamp: 0.1}
+      wrist_1_joint: {p: 1,  d: 0.00, i: 0, i_clamp: 0.1}
+      wrist_2_joint: {p: 1,  d: 0.00, i: 0, i_clamp: 0.1}
+      wrist_3_joint: {p: 1,  d: 0.00, i: 0, i_clamp: 0.1}
+    stop_trajectory_duration: 0.5
+    state_publish_rate: 500
+    action_monitor_rate: 20
