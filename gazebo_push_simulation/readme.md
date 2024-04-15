@@ -10,7 +10,7 @@ Implementation of linear push actions with UR5e, Robotiq 2F-85 gripper and custo
 
 ## Packages in this repository
 - main_pkg: setup of the gazebo environment with robot, gripper and cubes, and velocity controller, using modified launch file from https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation, and modified multi-object launch mechanism by TheConstruct: https://bitbucket.org/theconstructcore/box_bot/src/foxy/box_bot_description/launch/
-- experiments: Two experiments for pushing a cube in a straight line or to change its rotation
+- experiments: Experiment for pushing a cube in a straight line
 - custom_interfaces: Includes the custom messages and services
 - robotiq_2f_model: model from https://github.com/beta-robots/robotiq/tree/master/robotiq_2f_model wrapped in ROS2 package
 
