@@ -1,6 +1,6 @@
 ## Gazebo Push Simulation
 
-Implementation of linear push actions with UR5e, Robotiq 2F-85 gripper and custom cube using Ubuntu 22.04, ROS2 Humble and Gazebo 11
+Implementation of linear push actions with UR5e, Robotiq 2F-85 gripper and custom cube using Ubuntu 22.04, ROS2 Humble and Gazebo 11.
 
 ## External Packages
 (to be included into the workspace along the packages from this repository)
