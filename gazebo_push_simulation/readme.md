@@ -1,6 +1,6 @@
 ## Gazebo Push Simulation
 
-Implementation of linear push actions with UR5e, Robotiq 2F-85 gripper and custom cube using Ubuntu 22.04, ROS2 Humble and Gazebo 11. See example video, adding latency measurements from a loaded Wi-Fi 5 netowork (https://github.com/DominikUrbaniak/ros2_distributed_control_system/blob/main/gazebo_push_simulation/simulated_push_actions_wifi5_loaded.mp4).
+Implementation of linear push actions with UR5e, Robotiq 2F-85 gripper and custom cube using Ubuntu 22.04, ROS2 Humble and Gazebo 11. See example video, adding latency measurements from a loaded Wi-Fi 5 network (https://github.com/DominikUrbaniak/ros2_distributed_control_system/blob/main/gazebo_push_simulation/simulated_push_actions_wifi5_loaded.mp4).
 
 ## External Packages
 (to be included into the workspace along the packages from this repository)
