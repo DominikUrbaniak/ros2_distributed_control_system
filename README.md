@@ -1,6 +1,6 @@
 # Distributed Control System using ROS 2 
 
-This repository links three experiments:
+This repository contains three experiments:
 
 1) a robotic push experiment simulated with Gazebo11 that is delayed by a sample latency from measurements at Aalborg University.
    
