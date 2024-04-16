@@ -1,4 +1,4 @@
-# ROS 2 Distributed Control System
+# Distributed Control System using ROS 2 
 
 This repository links three experiments:
 
