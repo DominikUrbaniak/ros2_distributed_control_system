@@ -135,18 +135,18 @@ double manipulability_index;
 
 
 std::map<std::string, int> map_joints_to_joint_states_id = {
-  { "shoulder_pan_joint", 4 },
-  { "shoulder_lift_joint", 5 },
-  { "elbow_joint", 8 },
-  { "wrist_1_joint", 9 },
-  { "wrist_2_joint", 10 },
-  { "wrist_3_joint", 11 },
-  { "gripper_right_driver_joint", 0 },
-  { "gripper_left_driver_joint", 2 },
-  { "gripper_right_spring_link_joint", 1 },
-  { "gripper_left_spring_link_joint", 3 },
-  { "gripper_right_follower_joint", 6 },
-  { "gripper_left_follower_joint", 7 }
+    { "shoulder_pan_joint", 0 },
+    { "shoulder_lift_joint", 1 },
+    { "elbow_joint", 8 },
+    { "wrist_1_joint", 2 },
+    { "wrist_2_joint", 3 },
+    { "wrist_3_joint", 4 },
+    { "gripper_right_driver_joint", 5 },
+    { "gripper_left_driver_joint", 7 },
+    { "gripper_right_spring_link_joint", 6 },
+    { "gripper_left_spring_link_joint", 11 },
+    { "gripper_right_follower_joint", 9 },
+    { "gripper_left_follower_joint", 10 }
 };
 
 std::vector<double> current_joint_configuration(n_joints,0.0);
