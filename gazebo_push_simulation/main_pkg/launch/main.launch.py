@@ -91,8 +91,8 @@ def launch_setup(context, *args, **kargs):
             " ",
             "tf_prefix:=",
             tf_prefix,
-            #" ",
-            #"sim_gazebo:=true",
+            " ",
+            "sim_gazebo:=true",
             " ",
             "simulation_controllers:=",
             initial_joint_controllers,
@@ -299,7 +299,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             "description_file",
-            default_value="ur_gazebo.urdf.xacro",
+            default_value="ur.urdf.xacro",
             description="URDF/XACRO description file with the robot.",
         )
     )
