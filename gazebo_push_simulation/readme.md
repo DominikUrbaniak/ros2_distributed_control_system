@@ -4,8 +4,7 @@ Implementation of linear push actions with UR5e, Robotiq 2F-85 gripper and custo
 
 ## External Packages
 (to be included into the workspace along the packages from this repository)
-- ROS2 UR description package (ur_description): https://github.com/UniversalRobots/Universal_Robots_ROS2_Description
-- ROS2 UR gazebo simulation package (ur_simulation_gazebo): https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation
+- ROS2 UR description package (ur_description), humble branch (-b humble): https://github.com/UniversalRobots/Universal_Robots_ROS2_Description
 - IOC-UPC inverse kinematics library for UR robots (kinenik): https://gitioc.upc.edu/robots/kinenik
 
 ## Packages in this repository
