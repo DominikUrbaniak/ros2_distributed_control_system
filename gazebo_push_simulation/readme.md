@@ -1,6 +1,6 @@
 ## Gazebo Push Simulation
 
-Use the dockerfile provided here or refer to the source code in this repository: https://github.com/DominikUrbaniak/gazebo_push_simulation.git
+Use the Dockerfile provided here or refer to the source code in this repository: https://github.com/DominikUrbaniak/gazebo_push_simulation.git
 
 requires Rocker for rendering the Gazebo simulation: https://github.com/osrf/rocker
 
