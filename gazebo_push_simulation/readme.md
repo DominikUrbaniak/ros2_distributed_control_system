@@ -1,6 +1,6 @@
 ## Gazebo Push Simulation
 
-Use the dockerfile provided here or refer to the source code in this repository: [https://github.com/DominikUrbaniak/qos_tests.git](https://github.com/DominikUrbaniak/gazebo_push_simulation.git) 
+Use the dockerfile provided here or refer to the source code in this repository: [[https://github.com/DominikUrbaniak/qos_tests.git](https://github.com/DominikUrbaniak/gazebo_push_simulation.git)](https://github.com/DominikUrbaniak/gazebo_push_simulation.git) 
 
 requires Rocker: https://github.com/osrf/rocker
 
