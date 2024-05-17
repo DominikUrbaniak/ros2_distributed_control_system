@@ -7,4 +7,4 @@ In Dockerfile repository run:
 
 Run in X terminals:
 - *docker run -it --rm --name terminalX --net=host --pid=host qos_tests*
-
+- *. install/setup.bash*
