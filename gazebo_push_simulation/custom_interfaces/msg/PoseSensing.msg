@@ -1,5 +1,0 @@
-geometry_msgs/Pose pose
-int64 latency_mms
-int64 time_stamp_origin
-int64 time_stamp_delayed
-int32 lost_packets

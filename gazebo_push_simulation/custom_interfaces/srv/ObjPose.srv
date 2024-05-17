@@ -1,4 +1,0 @@
-uint16 objid
-geometry_msgs/Pose p
----
-string msg
