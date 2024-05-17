@@ -7,3 +7,4 @@ In Dockerfile repository run:
 
 Run in X terminals:
 - *docker run -it --rm --name terminalX --net=host --pid=host ur_experiments*
+- *. install/setup.bash*
