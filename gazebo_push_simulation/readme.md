@@ -6,11 +6,10 @@ requires Rocker for rendering the Gazebo simulation: https://github.com/osrf/roc
 
 - *docker build -t ros_humble_gazebo_push .*
 - *rocker --nvidia --x11 --network=host ros_humble_gazebo_push*
+- *. install/setup.bash*
 
 Terminal 1:
-- *. install/setup.bash*
 - *ros2 launch main_pkg main.launch.py*
 
 Terminal 2:
-- *. install/setup.bash*
 - *ros2 run push_control_py sim_translation private5g 60 10*
