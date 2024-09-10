@@ -7,5 +7,3 @@ This repository contains three experiments which have been developed and perform
 2) ROS 2 QoS communication tests where the best-effort and reliable QoS profiles can be compared for customized different package sizes uplink (can be run in docker containers) (https://github.com/DominikUrbaniak/qos_tests.git).
 
 3) the real distrbuted control experiments using a UR5e, offloading image processing of arUco detection and hand landmark detection to the edge server, receiving the object poses to control the robot using the ROS 2 JointGroupVelocityController (https://github.com/DominikUrbaniak/ur_experiments.git).
-
-[comment]: <> ([![Teleoperation video](https://raw.githubusercontent.com/DominikUrbaniak/ros2_distributed_control_system/main/teleoperation.png)](https://raw.githubusercontent.com/DominikUrbaniak/ros2_distributed_control_system/main/teleoperation_5G_comp_comp.mp4))
