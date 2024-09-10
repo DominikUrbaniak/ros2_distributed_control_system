@@ -8,4 +8,4 @@ This repository contains three experiments which have been developed and perform
 
 3) the real distrbuted control experiments using a UR5e, offloading image processing of arUco detection and hand landmark detection to the edge server, receiving the object poses to control the robot using the ROS 2 JointGroupVelocityController (https://github.com/DominikUrbaniak/ur_experiments.git).
 
-[![Mira el video](https://github.com/DominikUrbaniak/ros2_distributed_control_system/blob/main/teleoperation.png)](https://github.com/DominikUrbaniak/ros2_distributed_control_system/blob/main/teleoperation_5G_comp_comp.mp4)
+[![Teleoperation video](https://raw.githubusercontent.com/DominikUrbaniak/ros2_distributed_control_system/blob/main/teleoperation.png)](https://raw.githubusercontent.com/DominikUrbaniak/ros2_distributed_control_system/blob/main/teleoperation_5G_comp_comp.mp4)
