@@ -1,4 +1,4 @@
-FROM ioc:ros2 
+FROM ros:humble
 RUN apt-get update 
 RUN apt-get install -y python3-pip ros-humble-cv-bridge 
 RUN pip install opencv-contrib-python==4.5.4.60 scipy pympler 
